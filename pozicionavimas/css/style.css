@@ -1,0 +1,71 @@
+div.parent {
+  width:500px;
+  height:400px;
+  margin:20px auto;
+  border-style: solid;
+  border-color: brown;
+  border-width:1px;
+  position:relative;
+  background:brown;
+  }
+
+  
+div.kp{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100px;
+  height:100px;
+  background-color:white;
+}
+
+
+div.dp{
+  position: absolute;
+  top:0;
+  right:0;
+  width:100px;
+  height:100px;
+  background-color:white;
+
+}
+
+
+div.ad{
+  position: absolute;
+  right:0;
+  bottom:0;
+  width:100px;
+  height:100px;
+  background-color:white;
+}
+
+
+div.ak{
+  position: absolute;
+  left:0;
+  bottom:0;
+  width:100px;
+  height:100px;
+  background-color:white;
+}
+
+
+div.mama{
+  margin:20px auto;
+  background:brown;
+  width: 500px;
+  height:400px;
+  position:relative;
+}
+
+
+div.vidurys{
+ height:200px;
+ width:200px;
+ background:white; 
+ position:relative;
+ z-index:1;
+ left:calc(50% - 100px);
+ top:calc(50% - 100px);
+}
